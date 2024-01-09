@@ -136,7 +136,7 @@ public class Registration {
 	} else {
 	   System.out.println("Manual Registration icon is not clicked");
 	}
-	Thread.sleep(3000);
+	Thread.sleep(6000);
 
 
 	WebElement speciesButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//select)[1]")));

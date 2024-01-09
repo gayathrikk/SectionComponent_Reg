@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-08T12:21:10 IST" name="Default suite" finished-at="2024-01-08T12:22:07 IST" duration-ms="57710">
+  <suite started-at="2024-01-09T11:59:10 IST" name="Default suite" finished-at="2024-01-09T12:00:06 IST" duration-ms="55638">
     <groups>
     </groups>
-    <test started-at="2024-01-08T12:21:10 IST" name="Default test" finished-at="2024-01-08T12:22:07 IST" duration-ms="57710">
+    <test started-at="2024-01-09T11:59:10 IST" name="Default test" finished-at="2024-01-09T12:00:06 IST" duration-ms="55638">
       <class name="com.test.section_component.Registration">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-08T12:21:10 IST" name="setup" finished-at="2024-01-08T12:21:11 IST" duration-ms="924" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-09T11:59:10 IST" name="setup" finished-at="2024-01-09T11:59:12 IST" duration-ms="2159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-08T12:21:11 IST" name="login" finished-at="2024-01-08T12:21:19 IST" duration-ms="8815" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-09T11:59:12 IST" name="login" finished-at="2024-01-09T11:59:21 IST" duration-ms="9182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="viewerPage()[pri:2, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-08T12:21:19 IST" name="viewerPage" finished-at="2024-01-08T12:22:06 IST" duration-ms="47077" status="PASS">
+        <test-method signature="viewerPage()[pri:2, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-09T11:59:21 IST" name="viewerPage" finished-at="2024-01-09T12:00:06 IST" duration-ms="44172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewerPage -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-08T12:22:06 IST" name="afterTest" finished-at="2024-01-08T12:22:07 IST" duration-ms="871" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-09T12:00:06 IST" name="afterTest" finished-at="2024-01-09T12:00:06 IST" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
