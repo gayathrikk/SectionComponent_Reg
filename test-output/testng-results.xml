@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-09T11:59:10 IST" name="Default suite" finished-at="2024-01-09T12:00:06 IST" duration-ms="55638">
+  <suite started-at="2024-01-29T09:49:31 IST" name="Default suite" finished-at="2024-01-29T09:52:17 IST" duration-ms="166610">
     <groups>
     </groups>
-    <test started-at="2024-01-09T11:59:10 IST" name="Default test" finished-at="2024-01-09T12:00:06 IST" duration-ms="55638">
-      <class name="com.test.section_component.Registration">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-09T11:59:10 IST" name="setup" finished-at="2024-01-09T11:59:12 IST" duration-ms="2159" status="PASS">
+    <test started-at="2024-01-29T09:49:31 IST" name="Default test" finished-at="2024-01-29T09:52:17 IST" duration-ms="166610">
+      <class name="com.test.section_component.public_sectioncomponent">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:49:31 IST" name="setup" finished-at="2024-01-29T09:49:33 IST" duration-ms="2034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-09T11:59:12 IST" name="login" finished-at="2024-01-09T11:59:21 IST" duration-ms="9182" status="PASS">
+        <test-method signature="public_lims()[pri:1, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:49:33 IST" name="public_lims" finished-at="2024-01-29T09:49:34 IST" duration-ms="1085" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="viewerPage()[pri:2, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-09T11:59:21 IST" name="viewerPage" finished-at="2024-01-09T12:00:06 IST" duration-ms="44172" status="PASS">
+        </test-method> <!-- public_lims -->
+        <test-method signature="Dataportal()[pri:2, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:49:34 IST" name="Dataportal" finished-at="2024-01-29T09:49:34 IST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- viewerPage -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.section_component.Registration@505fc5a4]" started-at="2024-01-09T12:00:06 IST" name="afterTest" finished-at="2024-01-09T12:00:06 IST" duration-ms="101" status="PASS">
+        </test-method> <!-- Dataportal -->
+        <test-method signature="login12()[pri:3, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:49:34 IST" name="login12" finished-at="2024-01-29T09:52:12 IST" duration-ms="158159" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.test.section_component.Registration -->
+        </test-method> <!-- login12 -->
+        <test-method signature="Mouse()[pri:4, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:52:12 IST" name="Mouse" finished-at="2024-01-29T09:52:17 IST" duration-ms="5043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mouse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:52:17 IST" name="tearDown" finished-at="2024-01-29T09:52:17 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.section_component.public_sectioncomponent -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
