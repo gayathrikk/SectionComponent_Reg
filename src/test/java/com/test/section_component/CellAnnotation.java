@@ -42,10 +42,6 @@ public class CellAnnotation {
 
 	private WebDriverWait wait;
 
-
-
-
-		
 		@BeforeTest
 		
 			public void setup() throws Exception
