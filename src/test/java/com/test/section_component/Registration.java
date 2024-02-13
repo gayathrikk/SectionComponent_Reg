@@ -128,6 +128,11 @@ public class Registration {
 	Thread.sleep(5000);
 
 	  wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='136'])[1]"))).click();
+	}
+	
+	@Test(priority=3)
+	public void Registration() throws InterruptedException
+	{
 	 
 	  WebElement atlasIcon = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@title='Manual Registration']")));
 	if (atlasIcon != null && atlasIcon.isDisplayed()) {
@@ -137,7 +142,11 @@ public class Registration {
 	   System.out.println("Manual Registration icon is not clicked");
 	}
 	Thread.sleep(6000);
-
+	}
+	
+	@Test(priority=4)
+	public void section_component() throws InterruptedException
+	{
 
 	WebElement speciesButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//select)[1]")));
 	if (speciesButton != null && speciesButton.isDisplayed()) {
@@ -211,6 +220,7 @@ public class Registration {
 	       // Handle the assertion error here, for example:
 	       System.out.println("Assertion failed: " + e.getMessage());
 	    }
+	     System.out.println("************************section component validation done*************************");
 
 	}
 	@AfterTest
