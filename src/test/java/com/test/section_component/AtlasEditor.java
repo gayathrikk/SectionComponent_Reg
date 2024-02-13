@@ -229,6 +229,7 @@ public class AtlasEditor {
 			       // Handle the assertion error here, for example:
 			       System.out.println("Assertion failed: " + e.getMessage());
 			    }
+			     System.out.println("*************************section component validation done***************************");
 		
 			}
 	@AfterTest

@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-29T09:49:31 IST" name="Default suite" finished-at="2024-01-29T09:52:17 IST" duration-ms="166610">
+  <suite started-at="2024-02-13T11:56:30 IST" name="Default suite" finished-at="2024-02-13T11:57:31 IST" duration-ms="60687">
     <groups>
     </groups>
-    <test started-at="2024-01-29T09:49:31 IST" name="Default test" finished-at="2024-01-29T09:52:17 IST" duration-ms="166610">
-      <class name="com.test.section_component.public_sectioncomponent">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:49:31 IST" name="setup" finished-at="2024-01-29T09:49:33 IST" duration-ms="2034" status="PASS">
+    <test started-at="2024-02-13T11:56:30 IST" name="Default test" finished-at="2024-02-13T11:57:31 IST" duration-ms="60687">
+      <class name="com.test.section_component.AtlasEditor">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.section_component.AtlasEditor@4efc180e]" started-at="2024-02-13T11:56:30 IST" name="setup" finished-at="2024-02-13T11:56:31 IST" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="public_lims()[pri:1, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:49:33 IST" name="public_lims" finished-at="2024-01-29T09:49:34 IST" duration-ms="1085" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.test.section_component.AtlasEditor@4efc180e]" started-at="2024-02-13T11:56:31 IST" name="login" finished-at="2024-02-13T11:56:43 IST" duration-ms="11600" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- public_lims -->
-        <test-method signature="Dataportal()[pri:2, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:49:34 IST" name="Dataportal" finished-at="2024-01-29T09:49:34 IST" duration-ms="158" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="viewerPage()[pri:2, instance:com.test.section_component.AtlasEditor@4efc180e]" started-at="2024-02-13T11:56:43 IST" name="viewerPage" finished-at="2024-02-13T11:57:00 IST" duration-ms="17607" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Dataportal -->
-        <test-method signature="login12()[pri:3, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:49:34 IST" name="login12" finished-at="2024-01-29T09:52:12 IST" duration-ms="158159" status="PASS">
+        </test-method> <!-- viewerPage -->
+        <test-method signature="atlas()[pri:3, instance:com.test.section_component.AtlasEditor@4efc180e]" started-at="2024-02-13T11:57:00 IST" name="atlas" finished-at="2024-02-13T11:57:07 IST" duration-ms="6375" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login12 -->
-        <test-method signature="Mouse()[pri:4, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:52:12 IST" name="Mouse" finished-at="2024-01-29T09:52:17 IST" duration-ms="5043" status="PASS">
+        </test-method> <!-- atlas -->
+        <test-method signature="section_component()[pri:4, instance:com.test.section_component.AtlasEditor@4efc180e]" started-at="2024-02-13T11:57:07 IST" name="section_component" finished-at="2024-02-13T11:57:30 IST" duration-ms="23569" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Mouse -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.section_component.public_sectioncomponent@bd4dc25]" started-at="2024-01-29T09:52:17 IST" name="tearDown" finished-at="2024-01-29T09:52:17 IST" duration-ms="106" status="PASS">
+        </test-method> <!-- section_component -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.section_component.AtlasEditor@4efc180e]" started-at="2024-02-13T11:57:30 IST" name="afterTest" finished-at="2024-02-13T11:57:31 IST" duration-ms="828" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.test.section_component.public_sectioncomponent -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.section_component.AtlasEditor -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
