@@ -222,7 +222,7 @@ public class Registration {
 	} else {
 	   System.out.println("Load button is not clicked");
 	}
-	Thread.sleep(3000);
+	Thread.sleep(6000);
 
 	String[] expectedFileName = {"14 | NISSL | 245"};  
 	     java.util.List<WebElement> locationElements = driver.findElements(By.xpath("(//div[@class='paragraph'])[1]"));
