@@ -21,11 +21,6 @@ import org.testng.annotations.Test;
 
 
 public class Registration {
-	private RemoteWebDriver driver;
-	private WebDriverWait wait;
-
-
-	
 		private RemoteWebDriver driver;
 		private WebDriverWait wait;
 
